@@ -90,8 +90,8 @@ class InstagramBot:
 			time.sleep(2)
 
 
-insta = InstagramBot('nignogchris@gmail.com', 'Nigger7*(', 'copcanada')
+insta = InstagramBot('insertInstagramEmail', 'insertInstaPassword', 'targetPage')
 insta.login()
 insta.findMyFollowers(5)
-insta.followTheirFollowers(10)# Import requiements
+insta.followTheirFollowers(10)
 
