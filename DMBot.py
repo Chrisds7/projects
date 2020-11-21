@@ -53,7 +53,7 @@ class AutoDM:
         # messageButton is so you can write a message, step5
         messageButton = bot.find_element_by_xpath("//*[@id='react-root']/section/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div/div[2]/textarea")
         messageButton.click()
-        messageButton.send_keys("Emily is gay")
+        messageButton.send_keys("Insert message")
         # send button is the button that sends the message inside the DM, step6
         sendButton = bot.find_element_by_xpath("//*[@id='react-root']/section/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div/div[3]/button")
         sendButton.click()
@@ -72,7 +72,7 @@ class AutoDM:
             time.sleep(2)
             step5 = bot.find_element_by_xpath("//*[@id='react-root']/section/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div/div[2]/textarea")
             step5.click()
-            step5.send_keys("Emily is homo")
+            step5.send_keys("Insert Message")
             step6 = bot.find_element_by_xpath("//*[@id='react-root']/section/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div/div[3]/button")
             step6.click()
             i = i + 1
